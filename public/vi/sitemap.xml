@@ -4,7 +4,7 @@
   
   <url>
     <loc>/vi/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,182 +18,287 @@
   </url>
   
   <url>
-    <loc>/vi/1-prerequiste/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <loc>/vi/1-initial-setup/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-prerequiste/"
+                href="/1-initial-setup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-prerequiste/"
+                href="/vi/1-initial-setup/"
                 />
   </url>
   
   <url>
-    <loc>/vi/6-logging/1-challenges/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <loc>/vi/2-first-dashboard/1-create-dataset/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/6-logging/1-challenges/"
+                href="/2-first-dashboard/1-create-dataset/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/6-logging/1-challenges/"
+                href="/vi/2-first-dashboard/1-create-dataset/"
                 />
   </url>
   
   <url>
-    <loc>/vi/5-testing/1-challenges/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <loc>/vi/4-add-interactivity/4.1-copydashboard/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-testing/1-challenges/"
+                href="/4-add-interactivity/4.1-copydashboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-testing/1-challenges/"
+                href="/vi/4-add-interactivity/4.1-copydashboard/"
                 />
   </url>
   
   <url>
-    <loc>/vi/3-custom-rules/1-challenges/</loc>
+    <loc>/vi/3-enhancing-dashboard/1-formatting/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-custom-rules/1-challenges/"
+                href="/3-enhancing-dashboard/1-formatting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-custom-rules/1-challenges/"
+                href="/vi/3-enhancing-dashboard/1-formatting/"
                 />
   </url>
   
   <url>
-    <loc>/vi/4-advanced-rules/1-challenges/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <loc>/vi/2-first-dashboard/2-line-chart/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-advanced-rules/1-challenges/"
+                href="/2-first-dashboard/2-line-chart/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-advanced-rules/1-challenges/"
+                href="/vi/2-first-dashboard/2-line-chart/"
                 />
   </url>
   
   <url>
-    <loc>/vi/2-acls-managed-rules/1-challenges/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <loc>/vi/3-enhancing-dashboard/2-additional-graphs/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-acls-managed-rules/1-challenges/"
+                href="/3-enhancing-dashboard/2-additional-graphs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-acls-managed-rules/1-challenges/"
+                href="/vi/3-enhancing-dashboard/2-additional-graphs/"
                 />
   </url>
   
   <url>
-    <loc>/vi/2-acls-managed-rules/</loc>
+    <loc>/vi/4-add-interactivity/4.2-filter/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-acls-managed-rules/"
+                href="/4-add-interactivity/4.2-filter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-acls-managed-rules/"
+                href="/vi/4-add-interactivity/4.2-filter/"
                 />
   </url>
   
   <url>
-    <loc>/vi/3-custom-rules/</loc>
+    <loc>/vi/2-first-dashboard/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-custom-rules/"
+                href="/2-first-dashboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-custom-rules/"
+                href="/vi/2-first-dashboard/"
                 />
   </url>
   
   <url>
-    <loc>/vi/4-advanced-rules/</loc>
+    <loc>/vi/3-enhancing-dashboard/3-detailed-table/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-advanced-rules/"
+                href="/3-enhancing-dashboard/3-detailed-table/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-advanced-rules/"
+                href="/vi/3-enhancing-dashboard/3-detailed-table/"
                 />
   </url>
   
   <url>
-    <loc>/vi/5-testing/</loc>
+    <loc>/vi/3-enhancing-dashboard/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-testing/"
+                href="/3-enhancing-dashboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-testing/"
+                href="/vi/3-enhancing-dashboard/"
                 />
   </url>
   
   <url>
-    <loc>/vi/7-clean-up/</loc>
+    <loc>/vi/4-add-interactivity/4.3-actionfilter/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/7-clean-up/"
+                href="/4-add-interactivity/4.3-actionfilter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/7-clean-up/"
+                href="/vi/4-add-interactivity/4.3-actionfilter/"
                 />
   </url>
   
   <url>
-    <loc>/vi/6-logging/</loc>
+    <loc>/vi/2-first-dashboard/3-insights/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/6-logging/"
+                href="/2-first-dashboard/3-insights/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/6-logging/"
+                href="/vi/2-first-dashboard/3-insights/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/4-add-interactivity/4.4-navigate/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-add-interactivity/4.4-navigate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-add-interactivity/4.4-navigate/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/4-add-interactivity/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-add-interactivity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-add-interactivity/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/2-first-dashboard/4-donut-chart/</loc>
+    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-first-dashboard/4-donut-chart/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-first-dashboard/4-donut-chart/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/4-add-interactivity/4.4-publishdashboard/</loc>
+    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-add-interactivity/4.4-publishdashboard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-add-interactivity/4.4-publishdashboard/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/5-clean-up/</loc>
+    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/5-clean-up/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/5-clean-up/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/2-first-dashboard/5-pivot-table/</loc>
+    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-first-dashboard/5-pivot-table/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-first-dashboard/5-pivot-table/"
+                />
+  </url>
+  
+  <url>
+    <loc>/vi/2-first-dashboard/6-finishing/</loc>
+    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-first-dashboard/6-finishing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-first-dashboard/6-finishing/"
                 />
   </url>
   
