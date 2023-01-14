@@ -1,10 +1,10 @@
-+++
-title = "Dọn dẹp tài nguyên"
-date = 2021
-weight = 5
-chapter = false
-pre = "<b>5. </b>"
-+++
+---
+title : "Dọn dẹp tài nguyên"
+date :  "`r Sys.Date()`" 
+weight : 6
+chapter : false
+pre : " <b> 6. </b> "
+---
 
 #### Hủy đăng ký QuickSight
 1. Click vào tên User QuickSight ở menu góc trên bên phải.

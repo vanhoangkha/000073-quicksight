@@ -1,89 +1,92 @@
-+++
-title = "Bảng chi tiết dữ liệu"
-date = 2020
-weight = 3
-chapter = false
-pre = "<b>3.3. </b>"
-+++
-### Nội dung
-
-- [Định dạng trang tính](#định-dạng-trang-tính)
-- [Tạo bảng dữ liệu chi tiết](#tạo-bảng-dữ-liệu-chi-tiết)
-- [Định dạng theo điều kiện](#định-dạng-theo-điều-kiện)
-- [Định dạng bảng dữ liệu](#định-dạng-bảng-dữ-liệu)
-- [Xuất bản Dashboard](#xuất-bản-dashboard)
-
-#### Định dạng trang tính
-
-1. Để đổi tên trang tính, chọn mũi tên cạnh trang tính cần đổi tên, chọn **Rename** và nhập tên tùy chọn (VD: `Summary`).
-
-![AWS](/images/3/1.3-7a.png?width=90pc)
-
-2. Chọn biểu tượng **+** cạnh sheet **Summary**. Lặp lại bước trên để đổi tên thành **Details**.
-
-![AWS](/images/3/1.3-7b.png?width=90pc)
-
-#### Tạo bảng dữ liệu chi tiết
-1. Ở mục Fields list, chọn **Order ID**, **Order Date**, **Contact Name**, **Country**, **Customer**, **Industry**, **Product**, **Discount** and **Sales**.
-
-2. Chọn mũi tên cạnh **Discount (Sum)** > **Aggregate: Sum** > **Average** để chuyển tổng giảm giá thành mức giảm giá trung bình.
-
-![AWS](/images/3/1.3-8a.png?width=90pc)
-
-2. Chọn mũi tên cạnh **Sales (Sum)** > biểu tượng giảm để sắp xếp dữ liện từ lớn đến nhỏ.
-3. Chọn mũi tên cạnh **Sales (Sum)** > **Show as: Currency** > **Format** > **More formatting options...**
-4. Ở mục Field, chọn **Data Type** và đổi thành **Currency**. Ở mục **Decimal places**, chọn **2**. Như vậy, khi nào bạn sử dụng trường thông tin này, dữ liệu sẽ hiển thị dưới dạng ngoại tệ đô-la và đồng.
-
-![AWS](/images/3/1.3-9a.png?width=90pc)
-
-#### Định dạng theo điều kiện
-1. Chọn ký hiệu **...** góc bên phải biểu đồ, chọn **Conditional formatting**.
-
-![AWS](/images/3/1.3-9b.png?width=90pc)
-
-2. Chọn **Select a column** > **Discount**.
-
-![AWS](/images/3/1.3-9c.png?width=90pc)
-
-3. Chọn **Add background color**.
-
-![AWS](/images/3/1.3-9d.png?width=90pc)
-
-4. Ở Conditional #1, chọn **Greater than or equal to**. Ở mục Value, điều kiện ở **0.5**, và chọn màu bất kỳ (VD: màu đỏ). Chọn **ADd condition**.
-5. Ở Conditional #2, chọn **Greater than or equal to**. Ở mục Value, điều kiện ở **0.2**, và chọn màu bất kỳ (VD: màu vàng). Chọn **ADd condition**.
-6. Ở Conditional #3, chọn **Less than**. Ở mục Value, điều kiện ở **0.2**, và chọn màu bất kỳ (VD: màu xanh lá).
-7. Chọn **Apply** > **Close**.
-
-![AWS](/images/3/1.3-9e.png?width=90pc)
-
-8. Chọn **Select a column** > **[Entire row]**.
-
-![AWS](/images/3/1.3-9f.png?width=90pc)
+---
+title : "Data Details Table"
+date : "`r Sys.Date()`"
+weight : 3
+chapter : false
+pre : " <b> 4.3 </b> "
+---
 
 
-1. Ở **Format field based on** chọn **Order Date**, ở **Conditional**, chọn **After**. Ở mục **Date**, chọn ngày 01/01/2021, và chọn màu bất kỳ (VD: màu xanh dương). Chọn **Apply** > **Close**.
+### Content
 
-![AWS](/images/3/1.3-9h.png?width=90pc)
+- [Content](#content)
+  - [Format sheet](#format-sheet)
+  - [Create detailed data table](#create-detailed-data-table)
+  - [Conditional formatting](#conditional-formatting)
+  - [Data table format](#data-table-format)
+  - [Publish Dashboard](#publish-dashboard)
 
-#### Định dạng bảng dữ liệu
+#### Format sheet
 
-1. Chọn biểu tượng bánh răng góc bên phải biểu đồ. Chọn **Group-by column name**. Ở phần **Contact Name**, chọn `Contact`.
+1. To rename the sheet, select the arrow next to the sheet to be renamed, select **Rename** and enter an optional name (eg `Summary`).
 
-![AWS](/images/3/1.3-10a.png?width=90pc)
-2. Chọn **Value column name**. Ở phần **Discount (Average)**, chọn `Avg Discount`.
+![AWS](/images/3/1.3-7a.png?featherlight=false&width=90pc)
 
-![AWS](/images/3/1.3-10b.png?width=90pc)
+2. Select the **+** icon next to the **Summary** sheet. Repeat the above step to rename it to **Details**.
+
+![AWS](/images/3/1.3-7b.png?featherlight=false&width=90pc)
+
+#### Create detailed data table
+1. In the Fields list, select **Order ID**, **Order Date**, **Contact Name**, **Country**, **Customer**, **Industry**, **Product **, **Discount** and **Sales**.
+
+2. Select the arrow next to **Discount (Sum)** > **Aggregate: Sum** > **Average** to convert the total discount to the average discount.
+
+![AWS](/images/3/1.3-8a.png?featherlight=false&width=90pc)
+
+2. Select the arrow next to **Sales (Sum)** > the decrease icon to sort the data from large to small.
+3. Select the arrow next to **Sales (Sum)** > **Show as: Currency** > **Format** > **More formatting options...**
+4. In the Field section, select **Data Type** and change it to **Currency**. In the **Decimal places** section, select **2**. Thus, when you use this field, the data will be displayed in dollars and dong.
+
+![AWS](/images/3/1.3-9a.png?featherlight=false&width=90pc)
+
+#### Conditional formatting
+1. Select the symbol **...** in the right corner of the chart, and select **Conditional formatting**.
+
+![AWS](/images/3/1.3-9b.png?featherlight=false&width=90pc)
+
+2. Select **Select a column** > **Discount**.
+
+![AWS](/images/3/1.3-9c.png?featherlight=false&width=90pc)
+
+3. Select **Add background color**.
+
+![AWS](/images/3/1.3-9d.png?featherlight=false&width=90pc)
+
+4. In Conditional #1, select **Greater than or equal to**. In the Value section, the condition is at **0.5**, and choose any color (eg red). Select **ADd condition**.
+5. In Conditional #2, select **Greater than or equal to**. In the Value section, the condition is at **0.2**, and choose any color (eg yellow). Select **ADd condition**.
+6. In Conditional #3, select **Less than**. In the Value section, the condition is at **0.2**, and choose any color (eg green).
+7. Select **Apply** > **Close**.
+
+![AWS](/images/3/1.3-9e.png?featherlight=false&width=90pc)
+
+8. Select **Select a column** > **[Entire row]**.
+
+![AWS](/images/3/1.3-9f.png?featherlight=false&width=90pc)
 
 
-#### Xuất bản Dashboard
-1. Ở góc bên phải, chọn **Share** > **Publish dashboard**.
+1. In **Format field based on** select **Order Date**, in **Conditional** select **After**. Under **Date**, select January 1, 2021, and choose any color (eg blue). Select **Apply** > **Close**.
 
-![AWS](/images/3/1.3-11a.png?width=90pc)
-2. Nhập tên dashboard (VD: Module 2). Chọn **Publish Dashboard**.
+![AWS](/images/3/1.3-9h.png?featherlight=false&width=90pc)
 
-![AWS](/images/3/1.3-11b.png?width=90pc)
+#### Data table format
 
-Sau đây là kết quả dashboard được xuất bản.
-![AWS](/images/3/1.3-12a.png?width=90pc)
+1. Select the gear icon in the right corner of the chart. Select **Group-by column name**. In the **Contact Name** section, select `Contact`.
 
-![AWS](/images/3/1.3-12b.png?width=90pc)
+![AWS](/images/3/1.3-10a.png?featherlight=false&width=90pc)
+2. Select **Value column name**. In the **Discount (Average)** section, select `Avg Discount`.
+
+![AWS](/images/3/1.3-10b.png?featherlight=false&width=90pc)
+
+
+#### Publish Dashboard
+1. In the right corner, select **Share** > **Publish dashboard**.
+
+![AWS](/images/3/1.3-11a.png?featherlight=false&width=90pc)
+2. Enter the dashboard name (eg Module 2). Select **Publish Dashboard**.
+
+![AWS](/images/3/1.3-11b.png?featherlight=false&width=90pc)
+
+Here are the published dashboard results.
+![AWS](/images/3/1.3-12a.png?featherlight=false&width=90pc)
+
+![AWS](/images/3/1.3-12b.png?featherlight=false&width=90pc)

@@ -1,14 +1,18 @@
-+++
-title = "Các biểu đồ bổ sung"
-date = 2021
-weight = 2
-chapter = false
-pre = "<b>3.2. </b>"
-+++
+---
+title : "Các biểu đồ bổ sung"
+date :  "`r Sys.Date()`" 
+weight : 2
+chapter : false
+pre : " <b> 4.2 </b> "
+---
+
 
 ### Nội dung
-- [Biểu đồ Sankey](#biểu-đồ-sankey)
-- [Bản đồ Sales](#bản-đồ-sales)
+- [+++](#)
+- [pre : " <b> 4.1 </b> "](#pre---b-41-b-)
+  - [Nội dung](#nội-dung)
+    - [Biểu đồ Sankey](#biểu-đồ-sankey)
+    - [Bản đồ Sales](#bản-đồ-sales)
 
 #### Biểu đồ Sankey
 
@@ -17,7 +21,7 @@ pre = "<b>3.2. </b>"
 3. Ở mục Fiels list, chọn **Region**, **Sales**.
 4. Đổi tên biểu đồ thành `Sales Sankey`.
 
-![AWS](/images/3/1.3-4a.png?width=90pc)
+![AWS](/images/3/1.3-4a.png?featherlight=false&width=90pc)
 
 #### Bản đồ Sales
 1. Ở góc bên phải, chọn **Add** > **Add visual**. 
@@ -25,18 +29,18 @@ pre = "<b>3.2. </b>"
 3. Ở mục Fiels list, chọn **Country**, **Sales**.
 4. Đổi tên biểu đồ thành `Sales by Country`. 
 
-![AWS](/images/3/1.3-5a.png?width=90pc)
+![AWS](/images/3/1.3-5a.png?featherlight=false&width=90pc)
 
 5. Chọn biểu tượng bánh răng ở góc phải của biểu đồ, chọn **Tooltip**, đổi type thành **Detailed tooltip**, và chọn **Add field**.
 
-![AWS](/images/3/1.3-6a.png?width=90pc)
+![AWS](/images/3/1.3-6a.png?featherlight=false&width=90pc)
 
 6. Ở phần Field, chọn **Contact Name**; mục Label - nhập `# of Users`; mục Displayed value - chọn **Count distinct**.
 
 7. Chọn **Save** để áp dụng.
 
-![AWS](/images/3/1.3-6b.png?width=90pc)
+![AWS](/images/3/1.3-6b.png?featherlight=false&width=90pc)
 
 8. Lúc này, khi bạn di chuột đến nước bạn muốn xem, bạn có thể thấy số lượng khách hàng của từng nước.
 
-![AWS](/images/3/1.3-6c.png?width=90pc)
+![AWS](/images/3/1.3-6c.png?featherlight=false&width=90pc)

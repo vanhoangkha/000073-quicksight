@@ -1,50 +1,52 @@
-+++
-title = "Biểu đồ đường thẳng"
-date = 2021
-weight = 2
-chapter = false
-pre = "<b>2.2. </b>"
-+++
+---
+title : "Line chart"
+date : "`r Sys.Date()`"
+weight : 2
+chapter : false
+pre : " <b> 3.2 </b> "
+---
 
-#### Biểu đồ đường thẳng:
-Trong bước này chúng ta sẽ tạo biểu đồ đường thẳng sử dụng tính năng autograph, và thử thêm số liệu dự đoán sử dụng tính năng Forecast của QuickSight.
+#### Line chart:
+In this step, we'll create a line chart using the autograph feature, and try adding predictive metrics using QuickSight's Forecast feature.
 
-#### Nội dung
-- [Biểu đồ doanh số qua từng tháng](#biểu-đồ-doanh-số-qua-từng-tháng)
-- [Thêm số liệu dự đoán tương lai](#thêm-số-liệu-dự-đoán-tương-lai)
+#### Content
+- [Line chart:](#line-chart)
+- [Content](#content)
+- [Sales chart by month](#sales-chart-by-month)
+- [Add future prediction data](#add-future-prediction-data)
 
-#### Biểu đồ doanh số qua từng tháng
+#### Sales chart by month
 
-1. Trong mục Fields list, chọn **Sales** sau đó là  **Order Date**.
-  - Chúng ta sẽ thấy biểu đồ autograph tự động sinh ra biểu đồ tổng Sales theo ngày. 
+1. In the Fields list, select **Sales** then **Order Date**.
+  - We will see the autograph chart automatically generates the total Sales chart by day.
 
-![AWS](/images/2/1.2-5a.png?width=90pc)
+![AWS](/images/2/1.2-5a.png?featherlight=false&width=90pc)
 
-2. Chọn mũi tên cạnh **Order Date** > **Aggregate: Day** > **Month** để chuyển đơn vị thành tháng.
+2. Select the arrow next to **Order Date** > **Aggregate: Day** > **Month** to convert the unit to months.
  
-![AWS](/images/2/1.2-5b.png?width=90pc)
+![AWS](/images/2/1.2-5b.png?featherlight=false&width=90pc)
 
-3. Chúng ta sẽ thấy biểu đồ được chuyển thành tổng **Sales** theo tháng như hình dưới.
+3. We will see the chart converted to total **Sales** by month as shown below.
 
-![AWS](/images/2/1.2-5c.png?width=90pc)
+![AWS](/images/2/1.2-5c.png?featherlight=false&width=90pc)
 
-#### Thêm số liệu dự đoán tương lai
+#### Add future prediction data
 
-Số liệu dự đoán được tạo từ dữ liệu dataset và model Machine Learning của QuickSight. Hãy thực hiện các bước sau để áp dụng các số liệu dự đoán vào biểu đồ:
+Predictions are generated from datasets and QuickSight's Machine Learning model. Take the following steps to apply predictions to the chart:
 
-1. Đảm bảo bạn biểu đồ đang active bằng cách click vào bên trong biểu đồ.
-  - Click biểu tượng **...** góc bên phải biểu đồ, chọn **Add Forecast**.
+1. Make sure your chart is active by clicking inside the chart.
+  - Click the **...** icon in the right corner of the chart, and select **Add Forecast**.
 
-![AWS](/images/2/1.2-6a.png?width=90pc)
+![AWS](/images/2/1.2-6a.png?featherlight=false&width=90pc)
 
-2. Ở phần **Periods backward**, nhập **6**.
+2. In the **Periods backward** section, enter **6**.
   + Click **Apply**.
-  + Đường biểu đồ dự đoán hiển thị số liệu 6 tháng trước để chúng ta thể so sánh với số liệu thật trong Dataset.
+  + The prediction line shows the data from 6 months ago so that we can compare it with the actual data in the Dataset.
 
-![AWS](/images/2/1.2-6b.png?width=90pc)
+![AWS](/images/2/1.2-6b.png?featherlight=false&width=90pc)
 
-3. Chúng ta có thể rê chuột lên trên biểu đồ đường thẳng để kiểm tra giá trị của Forecast và giá trị thực.
+3. We can hover over the line chart to check the Forecast value and the actual value.
 
-![AWS](/images/2/1.2-6c.png?width=90pc)
+![AWS](/images/2/1.2-6c.png?featherlight=false&width=90pc)
 
-Tiếp theo chúng ta sẽ tạo biểu đồ KPI và sử dụng tính năng Insights của QuickSight.
+Next, we will create a KPI chart and use QuickSight's Insights feature.

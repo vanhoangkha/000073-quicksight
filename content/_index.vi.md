@@ -1,9 +1,9 @@
-+++
-title = "Bắt đầu với Quick Sight"
-date = 2021
-weight = 1
-chapter = false
-+++
+---
+title : "Bắt đầu với Quick Sight"
+date :  "`r Sys.Date()`" 
+weight : 1
+chapter : false
+---
 
 # Bắt đầu với Quick Sight
 

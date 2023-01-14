@@ -1,30 +1,30 @@
-+++
-title = "Bắt đầu với Quick Sight"
-date = 2021
-weight = 1
-chapter = false
-+++
+---
+title : "Getting Started with Quick Sight"
+date : "`r Sys.Date()`"
+weight : 1
+chapter : false
+---
 
-# Bắt đầu với Quick Sight
+# Get started with Quick Sight
 
-Trong workshop này chúng ta sẽ thực hiện xây dựng một dashboard để visualize (biểu diễn) data của mình. Bắt đầu bằng việc sử dụng dữ liệu mẫu, chúng ta sẽ đi qua các phần trong workshop tập trung vào việc thực hiện phân tích và biểu diễn data qua QuickSight.
+In this workshop, we will build a dashboard to visualize our data. Starting with sample data, we'll go through parts of the workshop that focus on performing data analysis and representation via QuickSight.
 
-Chúng ta sẽ sử dụng Region Singapore (ap-southeast-1), bạn có thể lựa chọn region khác tùy ý.
+We will use Region Singapore (ap-southeast-1), you can choose another region as you like.
 
-#### Nội dung
-1. [Chuẩn bị](1-initial-setup)
-2. [Xây dựng Dashboard](2-first-dashboard)
-3. [Cải tiến Dashboard](3-enhancing-dashboard)
-4. [Tính tương tác của Dashboard](4-add-interactivity)
+#### Content
+1. [Preparation](1-initial-setup)
+2. [Build Dashboard](2-first-dashboard)
+3. [Dashboard Improvements](3-enhancing-dashboard)
+4. [Dashboard interactivity](4-add-interactivity)
 
-#### Một số khái niệm cơ bản trong QuickSight
+#### Some basic concepts in QuickSight
 
-**Data source** là một kho lưu trữ dữ liệu bên ngoài và bạn cần cấu hình việc truy cập dữ liệu trong kho dữ liệu bên ngoài này, ví dụ. Amazon S3, Amazon Athena, Salesforce, v.v.
+**Data source** is an external data store and you need to configure data access in this external datastore, for example. Amazon S3, Amazon Athena, Salesforce, etc.
 
-**Dataset** xác định dữ liệu cụ thể trong Data source mà bạn muốn sử dụng. Ví dụ: Data source có thể là một bảng nếu bạn đang kết nối với Data source cơ sở dữ liệu. Nó có thể là một file nếu bạn đang kết nối với Data source Amazon S3. Dataset cũng lưu trữ bất kỳ quá trình chuẩn bị dữ liệu nào mà bạn đã thực hiện trên dữ liệu đó, chẳng hạn như đổi tên một trường hoặc thay đổi kiểu dữ liệu của nó. Việc này giúp bạn không phải sửa chữa lại dữ liệu mỗi khi bạn muốn tạo một  Analysis mới dựa trên nó.
+**Dataset** defines the specific data in the Data source that you want to use. For example, the Data source can be a table if you are connecting to the Data source database. It can be a file if you are connecting to an Amazon S3 Data source. The Dataset also stores any data preparation you have performed on that data, such as renaming a field or changing its data type. This saves you from having to revise the data every time you want to create a new Analysis based on it.
 
-**Analysis** là nơi chứa đựng một tập hợp các Visual và câu chuyện có liên quan, ví dụ như tất cả các câu chuyện áp dụng cho một mục tiêu kinh doanh nhất định hoặc KPI. Bạn có thể sử dụng nhiều Dataset trong một analysis, tuy nhiên 1 **Visual** chỉ có thể sử dụng một trong những Dataset đó.
+**Analysis** is a container for a collection of related Visuals and stories, i.e. all stories that apply to a given business goal or KPI. You can use multiple Datasets in an analysis, however 1 **Visual** can only use one of those Datasets.
 
-**Visual** là một biểu diễn đồ họa cho dữ liệu của bạn. Bạn có thể tạo nhiều loại Visual khác nhau trong một analysis, sử dụng các bộ dữ liệu và loại Visual khác nhau.
+**Visual** is a graphical representation of your data. You can create many different types of Visuals in an analysis, using different datasets and Visual types.
 
-**Dashboard** là một trang bao gồm một hoặc nhiều Analysis chỉ cho phép xem mà bạn có thể chia sẻ với những người dùng Amazon QuickSight khác cho mục đích báo cáo. Dashboard lưu giữ cấu hình của bản Analysis tại thời điểm bạn xuất bản nó, bao gồm những thứ như lọc, tham số, điều khiển và thứ tự sắp xếp. Khi bạn xem Dashboard, trang này phản ánh dữ liệu hiện tại trong các Dataset được **Analysis** sử dụng.
+**Dashboard** is a page that includes one or more view-only Analysis that you can share with other Amazon QuickSight users for reporting purposes. The Dashboard keeps the configuration of the Analysis at the time you publish it, including things like filtering, parameters, controls, and sort order. When you view the Dashboard, this page reflects the current data in the Datasets used by **Analysis**.

@@ -1,26 +1,26 @@
-+++
-title = "Xây dựng dashboard"
-date = 2020
-weight = 2
-chapter = false
-pre = "<b>2. </b>"
-+++
+---
+title : "Build dashboard"
+date : "`r Sys.Date()`"
+weight : 3
+chapter : false
+pre : " <b> 3. </b> "
+---
 
-Amazon QuickSight là hệ thống dịch vụ Business Intelligence trong hệ sinh thái các dịch vụ của AWS. Các tính năng khác biệt của QuickSight có thể kể đến dưới đây:
+Amazon QuickSight is the Business Intelligence service system in the AWS services ecosystem. The distinguishing features of QuickSight include the following:
 
-- Auto Scaling và Serverless : Khả năng tự động mở rộng theo lượng người dùng và serverless giúp chúng ta không phải quản trị hạ tầng bên dưới cho hệ thống dashboard của QuickSight.
-- SPICE ( super-fast, parallel, in-memory, calculation engine): tính năng cho phép nâng cao tốc độ truy vấn thông qua việc sử dụng bộ nhớ để lưu trữ dữ liệu trong data set.
-- Hỗ trợ dashboard nhúng và API : dễ dàng tích hợp và nhúng các visual tương tác vào ứng dụng hoặc website portal.
-- ML Insight và tích hợp với Sage Maker : Tính năng tự động tạo các insights phân tích và kết hợp với dịch vụ Sage Maker để sử dụng các mô hình tiên đoán nâng cao.
-- Thanh toán linh hoạt theo mức sử dụng của người dùng.
+- Auto Scaling and Serverless: The ability to automatically scale according to the number of users and serverless saves us from having to administer the underlying infrastructure for QuickSight's dashboard system.
+- SPICE (super-fast, parallel, in-memory, calculation engine): a feature that allows for improved query speed through the use of memory to store data in data sets.
+- Support embedded dashboard and API: easily integrate and embed interactive visuals into the application or website portal.
+- ML Insight and integration with Sage Maker: The feature automatically generates analytical insights and combines with the Sage Maker service to use advanced predictive models.
+- Flexible payment according to user usage.
 
-Bài thực hành sau đây sẽ hướng dẫn bạn xây dựng dashboard đầu tiên cùng QuickSight
+The following exercise will guide you through building your first dashboard with QuickSight
 
-### Nội dung
+### Content
 
-1. [Cập nhật Dataset](1-create-dataset)
-2. [Biểu đồ đường thẳng](2-line-chart)
-3. [Các thống kê quan trọng](3-insights)
-4. [Biểu đồ hình tròn](4-donut-chart)
-5. [Tạo Pivot table](5-pivot-table)
-6. [Hoàn thiện dashboard](6-finishing)
+1. [Update Dataset](1-create-dataset)
+2. [Line Chart](2-line-chart)
+3. [Important Stats](3-insights)
+4. [Pie Chart](4-donut-chart)
+5. [Create Pivot Table](5-pivot-table)
+6. [Complete dashboard](6-finishing)

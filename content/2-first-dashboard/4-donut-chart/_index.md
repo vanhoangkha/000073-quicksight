@@ -1,51 +1,52 @@
-+++
-title = "Biểu đồ hình tròn"
-date = 2020
-weight = 4
-chapter = false
-pre = "<b>2.4. </b>"
-+++
+---
+title : "Pie chart"
+date : "`r Sys.Date()`"
+weight : 4
+chapter : false
+pre : " <b> 3.4 </b> "
+---
 
-### Nội dung
-- [Tạo biểu đồ](#tạo-biểu-đồ)
-- [Thêm thông số chi tiết](#thêm-drill-down-layer)
-- [Lọc dữ liệu toàn dashboard theo ngành tùy chọn](#lọc-dữ-liệu-toàn-dashboard-theo-ngành-tùy-chọn)
+### Content
+- [Content](#content)
+  - [Create a chart](#create-a-chart)
+- [Add Drill-down Layer](#add-drill-down-layer)
+- [More details](#more-details)
+- [Filter dashboard-wide data by optional industry](#filter-dashboard-wide-data-by-optional-industry)
 
-#### Tạo biểu đồ
+#### Create a chart
 
-1. Chọn **Add** > **Add visual**.
-2. Ở mục Visual types góc trái, chọn **Donut chart**.
-3. Ở mục Fields list, chọn **Sales** và **Order date**.
-![AWS](/images/2/1.2-9a.png?width=90pc)
+1. Select **Add** > **Add visual**.
+2. In the section Visual types on the left corner, select **Donut chart**.
+3. In the Fields list, select **Sales** and **Order date**.
+![AWS](/images/2/1.2-9a.png?featherlight=false&width=90pc)
 
-### Thêm Drill-down Layer
-Bạn có thể thêm các chi tiết liên qua đến dữ liệu bằng các thêm Drill-down layer. 
+### Add Drill-down Layer
+You can add details related to data by adding Drill-down layers.
 
-1. Kéo thả mục **Customer** từ Fields list vào phần Group/Color. Giữ ở mục này và thả chuột khi thấy báo **Add drill-down layer**.
-![AWS](/images/2/1.2-9b.png?width=90pc)
+1. Drag and drop the item **Customer** from the Fields list into the Group/Color section. Hold this field and release the mouse when you see the **Add drill-down layer** message.
+![AWS](/images/2/1.2-9b.png?featherlight=false&width=90pc)
 
-2. Click chuột phải ở một đơn vị **Industry** bất kỳ (VD: Finance).
-![AWS](/images/2/1.2-9c.png?width=90pc)
+2. Right-click on any **Industry** unit (eg Finance).
+![AWS](/images/2/1.2-9c.png?featherlight=false&width=90pc)
 
-3. Nhờ bước 4, bạn sẽ thấy mục **Drill down to Customer**, chọn mục này.
-![AWS](/images/2/1.2-9d.png?width=90pc)
+3. Thanks to step 4, you will see the **Drill down to Customer** section, select this.
+![AWS](/images/2/1.2-9d.png?featherlight=false&width=90pc)
 
-4. Khi này, biểu đồ đường tròn sẽ hiện thông số **Customer** của **Industry** bạn đã chọn. Trong trường hợp này là ngành Finance.
-![AWS](/images/2/1.2-9e.png?width=90pc)
+4. At this time, the pie chart will show the **Customer** parameter of the **Industry** you have selected. In this case, it's Finance.
+![AWS](/images/2/1.2-9e.png?featherlight=false&width=90pc)
 
-Sau khi hoàn thành, bạn có thể chọn **Undo** để trở lại biểu đồ chính.
+Once done, you can select **Undo** to return to the main chart.
 
-### Thêm thông số chi tiết
+### More details
 
-1. Chọn họa tiết bánh răng ở góc phải của biểu đồ.
-2. Chọn mục **Data labels** > **Show metrics**.
-![AWS](/images/2/1.2-9f.png?width=90pc)
+1. Select the gear texture in the right corner of the chart.
+2. Select **Data labels** > **Show metrics**.
+![AWS](/images/2/1.2-9f.png?featherlight=false&width=90pc)
 
-### Lọc dữ liệu toàn dashboard theo ngành tùy chọn
+### Filter dashboard-wide data by optional industry
 
-1. Ở thanh điều hướng bên trái, chọn **Actions** > **Filter same sheet visuals**.
-![AWS](/images/2/1.2-12a.png?width=90pc)
+1. In the left navigation bar, select **Actions** > **Filter same sheet visuals**.
+![AWS](/images/2/1.2-12a.png?featherlight=false&width=90pc)
 
-2. Khi hoàn thành bước 1, nếu bạn chọn một ngành bất kỳ (VD: Finance), các thông số ở các biểu đồ khác sẽ được lọc và hiển thị dữ liệu của ngành được chọn.
-![AWS](/images/2/1.2-12b.png?width=90pc)
-
+2. When completing step 1, if you select any industry (eg Finance), the parameters in other charts will be filtered and display data of the selected industry.
+![AWS](/images/2/1.2-12b.png?featherlight=false&width=90pc)

@@ -1,18 +1,18 @@
-+++
-title = "Dọn dẹp tài nguyên"
-date = 2021
-weight = 5
-chapter = false
-pre = "<b>5. </b>"
-+++
+---
+title : "Clean up resources"
+date : "`r Sys.Date()`"
+weight : 6
+chapter : false
+pre : " <b> 6. </b> "
+---
 
-#### Hủy đăng ký QuickSight
-1. Click vào tên User QuickSight ở menu góc trên bên phải.
-- Click vào tên Region hiện tại , đổi Region về N. Virginia.
-2. Click vào tên user QuickSight ở menu góc trên bên phải.
+#### QuickSight unsubscribe
+1. Click on the User QuickSight name in the upper right corner menu.
+- Click on the current Region name, change Region to N. Virginia.
+2. Click on the QuickSight user name in the upper right corner menu.
 - Click Manage QuickSight.
 3. Click Account settings.
-- Click Detele Account.
-4. Điền confirm để xác nhận.
 - Click Delete Account.
-- QuickSight sẽ liệt kê danh sách các IAM Role QuickSight sử dụng , bạn sẽ cần vào IAM Console để xóa đi.
+4. Fill in confirm to confirm.
+- Click Delete Account.
+- QuickSight will list the IAM Roles QuickSight uses, you will need to go to the IAM Console to delete them.

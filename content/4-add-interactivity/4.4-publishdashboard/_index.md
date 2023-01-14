@@ -1,18 +1,17 @@
-+++ 
-title = "Xuất bản dashboard" 
-date = 2020 
-weight = 4
-chapter = false 
-pre = "4.4 "
-+++
-
+---
+title : "Publish dashboard"
+date : "`r Sys.Date()`"
+weight : 5
+chapter : false
+pre : " <b> 5.5 </b> "
+---
   
-#### Xuất bản dashboard
+#### Publish dashboard
 
-1. Ở góc bên phải, chọn **Share** > **Publish dashboard**.
+1. In the right corner, select **Share** > **Publish dashboard**.
 
-![AWS](/images/4/1.4-4j.png?width=90pc)
+![AWS](/images/4/1.4-4j.png?featherlight=false&width=90pc)
 
-2. Nhập tên dashboard (VD: `Module 3`). Chọn **Publish Dashboard**.
+2. Enter the dashboard name (eg `Module 3`). Select **Publish Dashboard**.
 
-![AWS](/images/4/1.4-4k.png?width=90pc)
+![AWS](/images/4/1.4-4k.png?featherlight=false&width=90pc)

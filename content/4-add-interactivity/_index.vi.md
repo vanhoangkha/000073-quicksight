@@ -1,10 +1,10 @@
-+++ 
-title = "Tạo Dashboard tương tác" 
-date = 2021
-weight = 4
-chapter = false 
-pre = "<b>4. </b>"
-+++
+---
+title : "Tạo Dashboard tương tác"
+date :  "`r Sys.Date()`" 
+weight : 5
+chapter : false
+pre : " <b> 5. </b> "
+---
 
 ### Nội dung
 

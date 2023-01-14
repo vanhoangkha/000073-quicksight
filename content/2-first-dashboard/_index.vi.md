@@ -1,10 +1,10 @@
-+++
-title = "Xây dựng dashboard"
-date = 2020
-weight = 2
-chapter = false
-pre = "<b>2. </b>"
-+++
+---
+title : "Xây dựng dashboard"
+date :  "`r Sys.Date()`" 
+weight : 3
+chapter : false
+pre : " <b> 3. </b> "
+---
 
 Amazon QuickSight là hệ thống dịch vụ Business Intelligence trong hệ sinh thái các dịch vụ của AWS. Các tính năng khác biệt của QuickSight có thể kể đến dưới đây:
 

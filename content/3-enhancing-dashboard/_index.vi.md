@@ -1,10 +1,10 @@
-+++
-title = "Cải tiến Dashboard"
-date = 2020
-weight = 3
-chapter = false
-pre = "<b>3. </b>"
-+++
+---
+title : "Cải tiến Dashboard"
+date :  "`r Sys.Date()`" 
+weight : 4
+chapter : false
+pre : " <b> 4. </b> "
+---
 
 ### Nâng cao các tính năng của dashboard.
 

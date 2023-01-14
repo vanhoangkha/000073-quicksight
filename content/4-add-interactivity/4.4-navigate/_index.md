@@ -1,60 +1,60 @@
-+++ 
-title = "Navigation Actions" 
-date = 2021
-weight = 4
-chapter = false 
-pre = "4.4 "
-+++
+---
+title : "Navigation Actions"
+date : "`r Sys.Date()`"
+weight : 4
+chapter : false
+pre : " <b> 5.4 </b> "
+---
 
-#### Navigation Actions (Hành động điều hướng)
 
-**Các hành động điều hướng** chủ yếu được thiết kế để đưa người dùng đến các trang tính khác dựa trên một lựa chọn, thường áp dụng với các bộ lọc. 
+#### Navigation Actions
 
-Ví dụ: đưa người dùng từ một trang tính có số liệu tóm tắt sang một trang tính có nhiều chi tiết hơn khi lựa chọn.
+**Navigation actions** are primarily designed to take the user to other sheets based on a selection, often with filters.
 
-1. Chọn biểu đồ gốc. Trong trường hợp này là biểu đồ hình tròn. Ở thanh điều hướng bên trái, chọn **Parameters** > **Create one...**.
+For example, take the user from a sheet with summary metrics to a sheet with more detail on selection.
 
-2. Đặt tên tùy chọn (VD: `Industry`). Chọn **Create**.
+1. Select the original chart. In this case the pie chart. In the left navigation bar, select **Parameters** > **Create one...**.
 
-![AWS](/images/4/1.4-4a.png?width=90pc)
+2. Set the option name (eg `Industry`). Select **Create**.
 
-3. Chọn **Custom actions**.
+![AWS](/images/4/1.4-4a.png?featherlight=false&width=90pc)
 
-![AWS](/images/4/1.4-4b.png?width=90pc)
+3. Select **Custom actions**.
 
-4. Chọn biểu tượng **+** phía bên phải cột Actions.
+![AWS](/images/4/1.4-4b.png?featherlight=false&width=90pc)
 
-![AWS](/images/4/1.4-4c.png?width=90pc)
+4. Select the **+** icon to the right of the Actions column.
 
-5. Đặt tên hành động tùy ý (VD: `See orders from «Industry» customers`).
+![AWS](/images/4/1.4-4c.png?featherlight=false&width=90pc)
 
-{{%notice tip%}} 
-Nếu không muốn đánh chữ **<<Industry>>**, bạn có thể chọn biểu tượng **...** ở góc phải và chọn **<<Industry>>**.
+5. Set an arbitrary action name (eg `See orders from «Industry» customers).
+
+{{%notice tip%}}
+If you don't want to type **<<Industry>>**, you can select the **...** icon in the right corner and select **<<Industry>>**.
 {{% /notice %}}
 
-6. Ở phần Action type, chọn **Navigation action**. Mục Target sheet, chọn **Details**. Chọn biểu tượng **+** phía bên phải cột Parameters.
+6. In the Action type section, select **Navigation action**. Under Target sheet, select **Details**. Select the **+** icon to the right of the Parameters column.
 
-![AWS](/images/4/1.4-4d.png?width=90pc)
+![AWS](/images/4/1.4-4d.png?featherlight=false&width=90pc)
  
-7. Ở mục Parameter, chọn **Industry** bạn vừa tạo ở bước 1 và 2. Chọn **Add** > **Save**.
+7. Under Parameters, select **Industry** you just created in steps 1 and 2. Select **Add** > **Save**.
 
-![AWS](/images/4/1.4-4e.png?width=90pc)
+![AWS](/images/4/1.4-4e.png?featherlight=false&width=90pc)
 
-Lúc này khi bạn chọn vào một ngành trong biểu đồ hình tròn, bạn sẽ thấy lựa chọn **See orders from Tech customers**. Khi chọn bạn sẽ được dẫn tới sheet **Details**.
+Now when you select an industry in the pie chart, you will see the option **See orders from Tech customers**. When selected you will be taken to the **Details** sheet.
 
-![AWS](/images/4/1.4-4f.png?width=90pc)
+![AWS](/images/4/1.4-4f.png?featherlight=false&width=90pc)
   
-Bạn có thể làm theo các bước sau để sheet **Details** được lọc dựa trên lực chọn ngành của bạn:
+You can follow these steps to have the **Details** sheet filtered based on your industry selection:
 
-8. Ở thanh điều hướng bên trái, chọn **Filter** > **Create one...** > **Industry**.
+8. In the left navigation bar, select **Filter** > **Create one...** > **Industry**.
 
-![AWS](/images/4/1.4-4g.png?width=90pc)
+![AWS](/images/4/1.4-4g.png?featherlight=false&width=90pc)
   
-9. Chọn **Use parameters** > **Industry** > **Apply**.
+9. Select **Use parameters** > **Industry** > **Apply**.
 
-![AWS](/images/4/1.4-4h.png?width=90pc)
+![AWS](/images/4/1.4-4h.png?featherlight=false&width=90pc)
 
-Lúc này nếu bạn chọn ngành **Tech**, trang tính **Details** chỉ hiện thị dữ liệu của ngành **Tech**.
+Now if you select the **Tech** industry, the **Details** sheet only shows the **Tech** industry data.
 
-![AWS](/images/4/1.4-4i.png?width=90pc)
-  
+![AWS](/images/4/1.4-4i.png?featherlight=false&width=90pc)

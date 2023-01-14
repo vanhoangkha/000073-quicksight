@@ -1,27 +1,26 @@
-+++
-title = "Cải tiến Dashboard"
-date = 2020
-weight = 3
-chapter = false
-pre = "<b>3. </b>"
-+++
+---
+title : "Dashboard Improvements"
+date : "`r Sys.Date()`"
+weight : 4
+chapter : false
+pre : " <b> 4. </b> "
+---
 
-### Cải tiến Dashboard với các tính năng nâng cao của QuickSight.
+### Enhance dashboard features.
 
-Trong phần này, chúng ta sẽ sử dụng thêm các tính năng của QuickSight để cải tiến cho dashboard của mình.
+In this section, we'll use QuickSight's features to improve dashboard quality.
 
-### Nội dung
+### Content
+1. [Dashboard Formatting](1-formatting)
+2. [Additional charts](2-additional-graphs)
+3. [Detailed Data Table](3-detailed-table)
 
-1. [Định dạng dashboard](1-formatting)
-2. [Các biểu đồ bổ sung](2-additional-graphs)
-3. [Bảng chi tiết dữ liệu](3-detailed-table)
+### Some related concepts
 
-### Một số khái niệm liên quan
+**Sheets** (aka sheets or tabs) are a great way to help organize content so you don't feel the need to cram everything into one page. Typically, the first sheet will include summary metrics and then provide detailed information on another sheet. Sheets can easily be duplicated in an analysis, which can come in handy while you're testing and developing a new dashboard.
 
-**Trang tính** (hay còn gọi là sheet hoặc tab) là một cách tuyệt vời để giúp sắp xếp nội dung để bạn không cảm thấy cần phải nhồi nhét mọi thứ vào một trang. Thông thường,trang tính đầu tiên sẽ gồm các chỉ số tóm tắt và sau đó cung cấp các thông tin chi tiết ở một trang tính khác. Trang tính có thể dễ dàng được sao chép trong một bản phân tích, điều này có thể hữu ích trong khi bạn đang thử nghiệm và phát triển một trang tổng quan mới.
+**Theme** allows you to quickly 'makeover' your dashboard using custom colors, alternative fonts, and other options like controlling the spacing between images. There are three independent themes to choose from, but you can create your own. Themes you create are shareable with other accounts, so you can define standard themes for your organization and share with accounts within your organization. Once you create a custom theme, you only need 1 click to apply it to your existing analytics/dashboard. Small changes to the theme can make a big difference in terms of aesthetics, and we know users will easily absorb the beautiful dashboard!
 
-**Chủ đề** cho phép bạn nhanh chóng "lột xác" trang tổng quan của mình bằng cách sử dụng màu tùy chỉnh, phông chữ thay thế và các tùy chọn khác như kiểm soát khoảng cách giữa các hình ảnh. Có ba chủ đề độc lập để lựa chọn nhưng bạn có thể tạo chủ đề của riêng mình. Chủ đề  bạn tạo có thể chia sẻ với các tài khoản khác, vì vậy bạn có thể xác định chủ đề tiêu chuẩn cho tổ chức của mình và chia sẻ với các tài khoản trong tổ chức. Khi bạn tạo chủ đề tùy chỉnh, bạn chỉ cần 1 lần nhấp để áp dụng chủ đề đó vào phân tích / dashboard hiện có. Những thay đổi nhỏ đối với chủ đề có thể tạo ra sự khác biệt lớn về mặt thẩm mỹ và chúng tôi biết người dùng sẽ dễ dàng tiếp thu dashboard đẹp mắt!
+**Field formats** (such as date format, number format such as displaying as a percentage or currency, or changing units or number of decimal places, etc.) are located in two locations - at the field level and the visual level. When you set the format at the field level, it will be applied whenever that field is used (recommended). Sometimes you may want the format of a field to display differently in a particular image (perhaps to summarize or add detail by adjusting units or decimal places), so setting the field format on the image will override the default formatting you applied.
 
-**Các định dạng trường** (chẳng hạn như định dạng ngày tháng, định dạng số như hiển thị dưới dạng phần trăm hoặc đơn vị tiền tệ, hoặc thay đổi đơn vị hoặc số vị trí thập phân, v.v.) có thể được đặt ở hai vị trí - ở cấp trường và cấp trực quan. Khi bạn đặt định dạng ở cấp trường, định dạng này sẽ được áp dụng bất cứ khi nào trường đó được sử dụng (được khuyến nghị). Đôi khi bạn có thể muốn định dạng của một trường hiển thị khác trong một hình ảnh cụ thể (có thể để tóm tắt hoặc thêm chi tiết bằng cách điều chỉnh đơn vị hoặc vị trí thập phân), do đó việc đặt định dạng trường trên hình ảnh sẽ đè lên định dạng mặc định mà bạn đã áp dụng.
-
-**Định dạng trực quan** đi rất sâu và mỗi loại trực quan có các loại định dạng khác nhau. Ví dụ: trên biểu đồ đường và biểu đồ thanh (thường là biểu đồ có trục), bạn có thể điều chỉnh tiêu đề trục, tỷ lệ trục, dấu đánh dấu, đường lưới, nhãn dữ liệu, chú giải công cụ, v.v. Trên bảng tổng hợp, bạn sẽ thấy các tùy chọn khác nhau như chức năng mở rộng/thu gọn, điều chỉnh kích thước phông chữ tiêu đề và ô, thêm tổng  số dữ liệu phụ và tổng số liệu, v.v. Khi muốn tùy chỉnh định dạng trực quan ngoài màu sắc và loại phông chữ (nên kiểm soát ở cấp Chủ đề), hãy nhớ kiểm tra Định dạng trực quan menu trên mỗi biểu đồ để xem những tùy chọn có sẵn.
+**Visual Formatting** goes very deep and each visualization has different types of formats. For example, on line and bar charts (usual charts with axes), you can adjust the axis title, axis scale, markers, gridlines, data labels, tooltips, and more. On the pivot table, you'll see different options like expand/collapse functionality, adjust header and cell font sizes, add subtotals and metric totals, and more. When you want to customize the visual formatting beyond colors and font types (recommended at the Theme level), be sure to check out the Visual Format menu on each chart to see what options are available.
