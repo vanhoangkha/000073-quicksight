@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pie chart on Quick Sight workshop</title>
+    <title>Pie chart on Getting Started with Quick Sight</title>
     <link>/2-first-dashboard/4-donut-chart/</link>
-    <description>Recent content in Pie chart on Quick Sight workshop</description>
+    <description>Recent content in Pie chart on Getting Started with Quick Sight</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/2-first-dashboard/4-donut-chart/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
